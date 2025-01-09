@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 150px 250px 150px;
+    grid-template-columns: repeat(4, 200px);
+}
+
+header {
+    grid-column: 1 / 5; 
+    display: grid; 
+    grid-template-rows: 1fr 2fr; 
+  }
+  
+header h1 {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: medium;
+    margin: 0;
+    grid-row: 1 / 2; 
+  }
+header nav {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align items vertically */
+    grid-row: 2 / 3;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-color: lightgrey;
+    padding: 10px;
+    color: black;
+}
+
+aside {
+    grid-column: 4 / 5;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    grid-row: 2 / 3;
+}
+
+footer {
+    grid-column: 1 / 5;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    grid-row: 3 / 4;
+}
