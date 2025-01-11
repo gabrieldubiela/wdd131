@@ -1,3 +1,24 @@
+  .roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
 h1 {
     color: #cbba64;
     text-align: center;
@@ -5,6 +26,7 @@ h1 {
     padding: 1rem;
     background-color: #12103d;
     font-size: 30px;
+    font-family: Roboto;
 }
 
 h2 {
@@ -15,6 +37,7 @@ h2 {
     background-color: #12103d;
     font-size: 20px;
     box-sizing: content-box;
+    font-family: Roboto;
 }
 
 h3 {
@@ -24,6 +47,11 @@ h3 {
     padding: 1rem;
     font-size: 18px;
     border-bottom: #947201 solid 1px;
+    font-family: Roboto;
+}
+
+p {
+    font-family: DM Serif Text;
 }
 
 nav {
@@ -39,6 +67,7 @@ a {
     color: black;
     text-decoration: none;
     padding: 1rem;
+    font-family: DM Serif Text;
 }
 
 a:hover {
