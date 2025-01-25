@@ -70,10 +70,22 @@ img {
     border-top: 1px solid green;
 }
 
-.weather-img {
+.data-box2 .weather-img {
     width: 65px;
     height: 65px;
     margin-top: -10px;
+}
+
+.data-box1 .weather-img {
+    width: 65px;
+    height: 65px;
+    margin-top: -1000px;
+    padding: 0;
+    opacity: 0;
+}
+
+.data-box1 .weather-div {
+    border: none;
 }
 
 footer {

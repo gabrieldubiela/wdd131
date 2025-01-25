@@ -1,7 +1,69 @@
 @media (min-width: 500px) {
-    nav {
-        display: none;
-        flex-direction: column;
-        width: 100%;
+    main {
+        position: relative;
+    }
+    
+    .data-box1 {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 300px; 
+        margin: 20px auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        position: absolute; 
+        top: 120px;
+        left: 45px;
+    }
+
+    .data-box2 {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 300px; 
+        margin: 20px auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        position: absolute; 
+        bottom: 20px;
+        right: 25px;
+    }
+
+    .weather-div {
+        border: 0;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .weather-img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .data-box1 div {
+        background-color: #228B22;
+        color: white;
+        border-radius: 10px; 
+        margin-left: -30px;
+        text-align: center; 
+        margin-bottom: 10px;
+        height: 65px;
+        padding: 0;
+    }
+
+    .data-box2 div {
+        background-color: #228B22;
+        color: white;
+        border-radius: 10px; 
+        margin-left: -30px;
+        text-align: center; 
+        margin-bottom: 10px;
+        height: 65px;
+        padding: 0;
+    }
+
+    h2 {
+        color: white;
+        text-align: left;
+        padding-top: 8px;
     }
 }
