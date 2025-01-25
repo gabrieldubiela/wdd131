@@ -1,0 +1,7 @@
+@media (min-width: 500px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+}
