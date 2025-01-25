@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Gabriel Dubiela</title>
-    <script src="scripts/place.js" defer></script>
-    <link rel="stylesheet" href="styles/place.css">
-    <link rel="stylesheet" href="styles/place-large.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Gabriel Dubiela</title>
+  <script src="scripts/place.js" defer></script>
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Brazil</h1>
-    </header>
-    <main>
-        <picture>
-            <source srcset="images/rio.webp" media="(min-width: 500px)">
-            <img src="images/christ.webp" alt="brazil" width="460px" height="690px">
-        </picture>
-        <div class="data-box1">
-            <div class="weather-div">
-                <h2>Data</h2>
-                <img class="weather-img" src="images/sunny.svg" alt="sunny">
-            </div>
-                <li><strong>Area:</strong> 8.510.000 sq km</li>
-                <li><strong>Population:</strong> 216,400,000</li>
-                <li><strong>Capital:</strong> Brazilia</li>
-                <li><strong>Languages:</strong> Português</li>
-                <li><strong>Currency:</strong> Real</li>
-                <li><strong>Time Zone:</strong> UTC+3</li>
-                <li><strong>Calling Code:</strong> +55</li>
-            
-        </div>
-        <div class="data-box2">
-            <div class="weather-div">
-                <h2>Weather</h2>
-                <img class="weather-img" src="images/sunny.svg" alt="sunny">
-            </div>
-                <li><strong>Temperature:</strong><span><span id="temperature">25</span>°C</span></li>
-                <li><strong>Conditions:</strong> Sunny</li>
-                <li><strong>Wind:</strong><span><span id="windSpeed">2</span>km/h</span></li>
-                <li><strong>Wind Chill:</strong><span><span id="windChill"></span>ºC</span></li>            
-        </div>
-    </main>
-    <footer>
+  <header>
+    <h1>Brazil</h1>
+  </header>
+  <main>
+    <picture>
+      <source srcset="images/rio.webp" media="(min-width: 500px)">
+      <img src="images/christ.webp" alt="brazil" width="460" height="690">
+    </picture>
+    <div class="data-box1">
+      <div class="weather-div">
+        <h2>Data</h2>
+        <img class="weather-img" src="images/sunny.svg" alt="sunny">
+      </div>
+      <p><strong>Area:</strong> 8.510.000 sq km</p>
+      <p><strong>Population:</strong> 216,400,000</p>
+      <p><strong>Capital:</strong> Brazilia</p>
+      <p><strong>Languages:</strong> Português</p>
+      <p><strong>Currency:</strong> Real</p>
+      <p><strong>Time Zone:</strong> UTC+3</p>
+      <p><strong>Calling Code:</strong> +55</p>
+    </div>
+    <div class="data-box2">
+      <div class="weather-div">
+        <h2>Weather</h2>
+        <img class="weather-img" src="images/sunny.svg" alt="sunny">
+      </div>
+      <p><strong>Temperature:</strong><span><span id="temperature">25</span>°C</span></p>
+      <p><strong>Conditions:</strong> Sunny</p>
+      <p><strong>Wind:</strong><span><span id="windSpeed">2</span>km/h</span></p>
+      <p><strong>Wind Chill:</strong><span><span id="windChill"></span>ºC</span></p>
+    </div>
+  </main>
+  <footer>
+    <div>
         <p>&copy; <span id="year"></span> Gabriel Dubiela | Brazil </p>
-        <p id="lastModified"></p>
-    </footer>
+    <p id="lastModified"></p>
+</div>
+  </footer>
 </body>
 </html>
