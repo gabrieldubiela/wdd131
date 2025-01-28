@@ -28,6 +28,7 @@
     }
 
     .weather-div {
+        display: none;
         border: 0;
         display: flex;
         padding: 0;
