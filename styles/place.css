@@ -60,27 +60,16 @@ img {
     height: 100%;
 }
 
-.weather-div {
+div {
     text-align: center;
-    border-top: 1px solid green;
+    border-bottom: 2px solid green;
 }
 
-.data-box2 .weather-img {
+div img {
     width: 65px;
     height: 65px;
     margin-top: -10px;
-}
-
-.data-box1 .weather-img {
-    width: 65px;
-    height: 65px;
-    margin-top: -1000px;
     padding: 0;
-    opacity: 0;
-}
-
-.data-box1 .weather-div {
-    border: none;
 }
 
 footer {
