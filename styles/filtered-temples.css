@@ -89,6 +89,7 @@ div {
     margin: 0 auto;
     grid-template-columns: 1fr;
     justify-items: center;
+    animation: fade 3s;
 }
 
 footer p {
@@ -129,3 +130,12 @@ footer p {
   .temple-card p {
     margin: 4px 0;
   }
+
+  @keyframes fade {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
