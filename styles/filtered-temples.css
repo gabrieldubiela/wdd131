@@ -88,6 +88,7 @@ div {
     max-width: 95%;
     margin: 0 auto;
     grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 footer p {
@@ -102,19 +103,21 @@ footer p {
 .temple-card {
     border: 1px solid #ccc;
     border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 16px;
-    margin: 16px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     background-color: #f9f9f9;
-    width: 390px;
+    width: 310px;
   }
   
   .temple-card img {
-    width: auto;
+    width: 310px;
     height: 250px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
   }
