@@ -110,10 +110,11 @@ footer p {
     flex-direction: column;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     background-color: #f9f9f9;
+    width: 390px;
   }
   
   .temple-card img {
-    max-width: auto;
+    width: auto;
     height: 250px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
   }
