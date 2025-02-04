@@ -1,6 +1,10 @@
+:root {
+    --title-font: Roboto;
+    --text-font: Dm Serif Text;
+}
+
 .roboto {
     font-family: "Roboto", serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
