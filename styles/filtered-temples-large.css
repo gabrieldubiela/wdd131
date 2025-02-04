@@ -1,22 +1,25 @@
 .roboto {
     font-family: "Roboto", serif;
+    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-}
+    font-variation-settings:
+      "wdth" 100;
+  }
   
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
-}
+  }
   
-.dm-serif-text-regular-italic {
+  .dm-serif-text-regular-italic {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
-}
+  }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     nav {
         display: none;
         flex-direction: column;
@@ -36,14 +39,14 @@
     }
 }
 
-@media (min-width: 401px) {
+@media (min-width: 601px) {
     div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 450px)
+@media (max-width: 650px)
 {
     a {
         padding-left: 0px;
@@ -51,27 +54,27 @@
     }
 }
 
-@media (min-width: 451px) and (max-width: 650px) {
+@media (min-width: 651px) and (max-width: 850px) {
     a {
         padding-left: 5px;
         padding-right: 20px;
     }
 }
 
-@media (min-width: 651px) and (max-width: 850px) {
+@media (min-width: 851px) and (max-width: 1050px) {
     a {
         padding: 20px;
     }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1300px) {
     div {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (min-width: 1701px) {
+@media (min-width: 1901px) {
     .temple-card {
         width: 410px;
       }
