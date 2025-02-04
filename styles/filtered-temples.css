@@ -33,7 +33,7 @@ header {
 button {
     display: none;
     width: 60px;
-    font-family: Roboto;
+    font-family: var(--title-font);
     font-size: large;
 }
 
@@ -45,7 +45,7 @@ h1 {
     text-align: center;
     background-color: #12103d;
     font-size: 30px;
-    font-family: Roboto;
+    font-family: var(--title-font);
 }
 
 h2 {
@@ -54,12 +54,12 @@ h2 {
     padding: 10px;
     background-color: #12103d;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: var(--title-font);
     margin: 0;
 }
 
 p {
-    font-family: DM Serif Text;
+    font-family: var(--text-font);
 }
 
 nav {
@@ -72,7 +72,7 @@ nav {
 a {
     color: #cbba64;
     text-decoration: none;
-    font-family: DM Serif Text;
+    font-family: var(--text-font);
     padding: 25px;
 }
 
