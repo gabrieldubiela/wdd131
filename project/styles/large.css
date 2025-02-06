@@ -1,0 +1,28 @@
+@media (min-width: 431px) {
+
+    nav {
+        display: flex;
+        gap: 1.5rem;
+        margin-right: 20px;
+    }
+
+    a {
+        color: var(--secondary-color);
+        text-decoration: none;
+        font-family: var(--title-font);
+        font-size: 1.4rem;
+    }
+
+    header button {
+        display: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section {
+        margin: 1.5rem 1.5rem;
+    }
+}
