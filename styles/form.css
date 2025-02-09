@@ -48,7 +48,6 @@ body {
 main {
 	background-color: var(--background-color);
 	color: var(--text-color);
-	font-weight: bold;
 	margin: 20px 0px 20px 0px;
 }
 
@@ -61,11 +60,13 @@ label {
 	font-size: 1.2rem;
 	margin: 20px 0px 5px 15px;
 	vertical-align: middle;
+	font-family: var(--text-font);
 }
 
 p {
 	font-size: 1.2rem;
 	margin: 0px 0px 0px 05px;
+	font-family: var(--text-font);
 }
 
 select, input {
@@ -85,7 +86,8 @@ h1 {
 	margin: 0;
 	color: var(--secondary-color);
 	background-color: var(--primary-color);
-	padding: 15px;	
+	padding: 15px;
+	font-family: var(--title-font);	
 }
 
 input[type="submit"] {
@@ -115,5 +117,5 @@ input[type="checkbox"] {
 }
 
 section div {
-    margin: -10px 0; /* Reduz a margem entre as linhas */
+    margin: -10px 0;
 }
