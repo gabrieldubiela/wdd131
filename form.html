@@ -20,7 +20,7 @@
         <form method="get" action="review.html">
 
             <section>
-                <label for="product">Product Name</label>
+                <h2><label for="product">Product Name</label></h2>
                 <select id="product" name="product" required>
                     <option value="" disabled selected>Select a Product...</option>
 
@@ -28,7 +28,7 @@
             </section>
 
             <section>
-                <label>Overall Rating</label>
+                <h2><label>Overall Rating</label></h2>
                 <div class="stars">
                     <input type="radio" id="onestar" name="rating" value="1" required>
                     <label for="onestar" class="star">&#9733;</label>
@@ -48,12 +48,12 @@
             </section>
 
             <section>
-                <label for="date">Date of Installation</label>
+                <h2><label for="date">Date of Installation</label></h2>
                 <input type="date" id="date" name="date" required>
             </section>
 
             <section>
-                <label>Which features did you find useful in the product? (Check all that apply)</label>
+                <h2><label>Which features did you find useful in the product? <span>(Check all that apply)</span></label></h2>
                 <div>
                     <input type="checkbox" id="durability" name="features" value="durability">
                     <label for="durability">Durability</label>
@@ -73,17 +73,17 @@
             </section>
 
             <section>
-                <label for="review">Written Review<p>(Optional)</p></label>
+                <h2><label for="review">Written Review<span>(Optional)</span></label></h2>
                 <textarea id="review" name="review"></textarea>
             </section>
 
             <section>
-                <label for="name">Your Name<p>(Optional)</p> </label>
+                <h2><label for="name">Your Name<span>(Optional)</span> </label></h2>
                 <input type="text" id="name" name="name">
             </section>
 
             <section>
-                <input type="submit" value="Post Review">
+                <h2><input type="submit" value="Post Review"></h2>
             </section>
         </form>
     </main>

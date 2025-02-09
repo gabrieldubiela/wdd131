@@ -17,7 +17,7 @@ input[type="radio"] {
     display: flex;
     flex-direction: row-reverse; 
     justify-content: flex-end;
-	margin-top: -25px;
+	margin-top: -45px;
 }
 
 .stars input[type="radio"] {
@@ -63,12 +63,6 @@ label {
 	font-family: var(--text-font);
 }
 
-p {
-	font-size: 1.2rem;
-	margin: 0px 0px 0px 05px;
-	font-family: var(--text-font);
-}
-
 select, input {
 	font-size: 1.2rem;
 	margin: 0px 15px 0px 15px;
@@ -106,8 +100,14 @@ footer {
 	padding: 20px;
 }
 
-footer p {
-	padding: 5px;
+span {
+	font-size: 1rem;
+	margin-left: 15px;
+}
+
+p {
+	font-size: 1.2rem;
+	font-family: var(--text-font);
 }
 
 input[type="checkbox"] {
