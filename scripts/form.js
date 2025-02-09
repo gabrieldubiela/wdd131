@@ -1,12 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const currentYearElement = document.querySelector("#currentyear");
-    const lastModifiedElement = document.querySelector("#lastModified");
-
-    const today = new Date();
-    currentYearElement.textContent = today.getFullYear();
-
-    const lastModified = document.lastModified;
-    lastModifiedElement.textContent = "Last Modified: " + lastModified;
+const year = document.querySelector("#year");
+const today = new Date();
+year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
+let oLastModif = new Date(document.lastModified);
+document.getElementById('lastModified').textContent = 'Last Modification: ' + document.lastModified;
 
     const products = [
         { id: "fc-1888", name: "flux capacitor", averagerating: 4.5 },
@@ -29,15 +25,21 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    const rangevalue = document.getElementById("rangevalue");
-    const range = document.getElementById("r");
+    const stars = document.querySelectorAll('.stars input[type="radio"]');
 
-    range.addEventListener('change', displayRatingValue);
-    range.addEventListener('input', displayRatingValue);
-
-    function displayRatingValue() {
-        rangevalue.innerHTML = range.value;
-    }
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            // Remove a classe de todas as estrelas
+            document.querySelectorAll('.stars label.star').forEach(label => {
+                label.classList.remove('selected');
+            });
+    
+            // Adiciona a classe apenas às estrelas selecionadas e anteriores
+            for (let i = 1; i <= star.value; i++) {
+                document.querySelector(`label[for="${i}star"]`).classList.add('selected');
+            }
+        });
+    });
 
     const form = document.querySelector("form");
     form.addEventListener("submit", function (event) {
@@ -45,4 +47,3 @@ document.addEventListener("DOMContentLoaded", function () {
         form.reset();
         form.submit();
     });
-});
