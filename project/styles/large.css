@@ -17,12 +17,21 @@
         display: none;
     }
 
-    main {
+    .home {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
+    .practices {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     section {
         margin: 1.5rem 1.5rem;
+    }
+
+    .lazy {
+        animation: fade 0s;
     }
 }

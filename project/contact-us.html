@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Law Firm Website Project">
+    <title>Conctact</title>
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/project.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Dubiela Law Firm</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="practices.html">Practices</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+        <button>Menu</button>
+    </header>
+    <main class="home">
+        <div>
+            <h2>Our Contact</h2>
+            <h3>WhatsApp</h2>
+            <p>+55 (99) 99999-9999</p>
+            <h3>Email</h2>
+            <p> 📧 contact@dubiela.com</p>
+            <h3>Address</h2>
+            <p>🏢 123 Street, Santos, SP 99999, Brazil</p>
+        </div>
+
+        <div>
+            <h2>Schedule a Consultation</h2>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="practice">Practice Area:</label>
+                <select id="practice" name="practice" required>
+                        <option value="" disabled selected>Select an practice area</option>
+                        <option value="corporate">Corporate Law</option>
+                        <option value="family">Family Law</option>
+                        <option value="real">Real State Law</option>
+                </select>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <select id="time" name="time" required>
+                    <option value="" disabled selected>Select a time</option>
+                </select>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="Schedule">Send</button>
+            </form>
+        </div>
+    
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Dubiela Law Firm. All rights reserved.</p>
+    </footer>
+</body>
+</html>

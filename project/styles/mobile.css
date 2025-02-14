@@ -24,6 +24,17 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+nav {
+    display: none;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin-left: 10px;
+}
+
 h1 {
     color: var(--secondary-color);
     font-family: var(--title-font);
@@ -38,15 +49,17 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: var(--primary-color);
+    font-family: var(--title-font);
+    margin-bottom: -15px;
+}
+
 p {
     font-family: var(--text-font);
     font-size: 1rem;
     margin: 1rem 0;
     text-align: justify;
-}
-
-nav {
-    display: none;
 }
 
 header button {
@@ -86,7 +99,6 @@ main button {
     font-size: 1.1em;
 }
 
-
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -94,8 +106,34 @@ footer {
     margin: 0;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, select {
+    margin-bottom: 15px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+}
+
 footer p {
     margin: 0;
     font-size: 0.9rem;
     text-align: center;
+}
+
+.lazy {
+    animation: fade 3s;
+  }
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
